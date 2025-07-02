@@ -13,7 +13,6 @@ import matplotlib.patches as mpatches
 from sklearn.metrics import classification_report
 
 from scipy.stats import wasserstein_distance
-from scipy.stats import wasserstein_distance_nd
 from scipy.special import rel_entr
 from scipy.special import kl_div
 from scipy.spatial import distance
