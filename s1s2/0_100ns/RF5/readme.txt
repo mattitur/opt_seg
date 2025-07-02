@@ -1,5 +1,5 @@
 Calcultion performed for the RF5 segmentation group.
-The python scirpt outputs, sources the x,y positions of the adsorbed CO2 molecules from the parallel subfolders (i.e., 0_10ns, 10_25ns etc.) and outputs, among others, files needed for further analysis:
+The python scirpt (segmentation_rf5.py) outputs, sources the x,y positions of the adsorbed CO2 molecules from the parallel subfolders (i.e., 0_10ns, 10_25ns etc.) and outputs, among others, files needed for further analysis:
 
 1) Segmented density maps for all different combinations of smoothing levels.
 2) Area attributed to each class for different smoothing combinations (Figure 3 in the manuscript).
