@@ -523,7 +523,7 @@ for n,k in enumerate(comb_array_sig[:,:]):
     kg = np.sort(np.hstack(features[:,:,k[1]]))
     #ct = int(0.9*(kg.shape[0])) 
     zeros[(features[:,:,k[3]] >  -0.005) & (features[:,:,k[2]] >  -0.005)  & (features[:,:,k[0]] < 1.0)] = 1 
-    zeros[(features[:,:,k[3]] <  -0.003) & (features[:,:,k[2]] >  -0.005)  & (features[:,:,k[0]] < 5.0)] = 2 
+    zeros[(features[:,:,k[3]] <  -0.003) & (features[:,:,k[2]] >  -0.005)  & (features[:,:,k[0]] < 3.0)] = 2 
     zeros[(features[:,:,k[3]] <  -0.003) & (features[:,:,k[2]] <  -0.004)  & (features[:,:,k[0]] > 7.5)] = 3 
 
 
@@ -948,7 +948,7 @@ for n,k in enumerate(comb_array_sig[:,:]):
     zeros  = np.zeros(features[:,:,0].shape)
     kg = np.sort(np.hstack(features[:,:,k[1]]))
     zeros[(features[:,:,k[3]] >  -0.005) & (features[:,:,k[2]] >  -0.005)  & (features[:,:,k[0]] < 1.0)] = 1 
-    zeros[(features[:,:,k[3]] <  -0.003) & (features[:,:,k[2]] >  -0.005)  & (features[:,:,k[0]] < 5.0)] = 2 
+    zeros[(features[:,:,k[3]] <  -0.003) & (features[:,:,k[2]] >  -0.005)  & (features[:,:,k[0]] < 3.0)] = 2 
     zeros[(features[:,:,k[3]] <  -0.003) & (features[:,:,k[2]] <  -0.004)  & (features[:,:,k[0]] > 7.5)] = 3 
 
 
