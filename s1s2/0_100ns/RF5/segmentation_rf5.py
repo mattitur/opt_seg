@@ -493,10 +493,8 @@ kg1 = 0.4*(np.max(features[:,:,1]))
 
 k_sig1 =  np.array([0])
 k_sig2 =  np.array([13])
-k_sig3 =  np.array([14])
-k_sig4 =  np.array([15])
-#k_sig3 =  np.array([2,6,10,14])
-#k_sig4 =  np.array([3,7,11,15])
+k_sig3 =  np.array([2,6,10,14])
+k_sig4 =  np.array([3,7,11,15])
 
 
 comb_array_sig = np.array(np.meshgrid(k_sig1, k_sig2,k_sig3, k_sig4)).T.reshape(-1, 4) 
