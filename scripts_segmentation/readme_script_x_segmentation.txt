@@ -1,5 +1,5 @@
-Calcultion performed for the RF5 segmentation group.
-The python scirpt (segmentation_rf5.py) sources the x,y positions of the adsorbed CO2 molecules from the parallel subfolders (i.e., 0_10ns, 10_25ns etc.) and outputs, among others, files needed for further analysis:
+Calcultion performed for the RF5, RF3 and THR segmentation group.
+The python scirpts (segmentation_rf5.py, segmentation_rf3.py and segmentation_thr.py) can be run from inside each 0_100ns subfolder inside each surfaces folder (i.e. s1s5, s2s6 setc.). The scripts source the x,y positions of the adsorbed CO2 molecules from the parallel subfolders (i.e., 0_10ns, 10_25ns etc.) and outputs, among others, files needed for further analysis:
 
 1) Segmented density maps for all different combinations of smoothing levels: "segmented_map.png".
 2) Area attributed to each class for different smoothing combinations (Figure 3 in the manuscript): "area_empty.txt", "area_netwo.txt" and "area_regions_highs.txt" for LD, ID and HD, respectively.
