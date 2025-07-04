@@ -1,1 +1,3 @@
 The zipped file areas contains the extension (in number of pixels) of each individual segmeneted regions. By summing all the pixels and conerting to angstrom^2, Figure 3 is obtained. To convert to Angstrom^2 multipy for 0.04 (area of a pixel). We have 250,000 pixels and a surface of 100x100 Angs^2. 
+
+Output files names contain numbers which refer to the level of smoothing of I, G, E1 and E2. For I number is always 0 (level of smoothing = 1), for G is always 13 (level of smoothing = 4). For E1 and E2 there are all different combinations E1 (2,6,10,14 resp. sig=1,2,3,4) and E2 (3,7,11,15 resp. sig=1,2,3,4). Prefix "inf" and "sup" refer to lower and upper surfaces, respectively. "empty", "netwo" and "regions_high" refer to areas of LD, ID and HD classes, respectively. 
