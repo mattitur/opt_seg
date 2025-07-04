@@ -1,0 +1,1 @@
+The zipped file areas contains the extension (in number of pixels) of each individual segmeneted regions. By summing all the pixels and conerting to angstrom^2, Figure 3 is obtained. To convert to Angstrom^2 multipy for 0.04 (area of a pixel). We have 250,000 pixels and a surface of 100x100 Angs^2. 
