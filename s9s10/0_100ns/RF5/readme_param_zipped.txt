@@ -1,1 +1,0 @@
-The zipped file "params_e1s3e2s4_e1s4s2s4.zip" contains the fitting parameters for E1(sig=3)-E2(sig=4) and E1(sig=4)-E2(sig=4) for the transitions BD --> HD and BD --> pore as reported in Figure 6. Parameters for both single and double exponential fitting are included.
